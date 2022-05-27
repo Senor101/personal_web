@@ -155,23 +155,79 @@ footer{
 }
 
 .info p{
+  font-family: 'Comic Neue', cursive;
+  font-size: 1.05em;
+  font-weight: 525;
   position: absolute;
   padding: 20px;
   background-color: #89b0ae;
   bottom:7%;
 }
 
-.message{
-  position: absolute;
+.contact-form{
+  font-family: 'Comic Neue', cursive;
   margin: 50px 0 ;
-  height:370px;
-  right: 10%;
-  width: 500px;
+  height:320px;
+  width: 310px;
   background-color: #5a7573;
-  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 0px;
+  position: absolute;
+  right:12%;
+  top:12%;
   z-index: 2;
 }
 
+.contact-form input{
+  font-family: 'Comic Neue', cursive;
+  color: #fff;
+  padding: 10px;
+  width: 282px;
+  text-align: center;
+  margin: 12px;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+  border:0;
+  transition: all .3s;
+  border-bottom: 1px solid #ffff ;
+  background: #5a7573;
+  font-size: 1.15em;
+}
+
+.contact-form input:focus {
+  border-bottom: 2px solid #89b0ae;
+}
+
+.contact-form textarea{
+  font-family: 'Comic Neue', cursive;
+  color: #ffff;
+  margin: 15px;
+  padding:10px;
+  font-size: 1.15em;
+  text-align: center;
+  resize: none;
+  border: 0;
+  background: #5a7573;
+  border-bottom: 1px solid rgb(224, 198, 198);
+}
+
+.contact-form button{
+  font-family: 'Comic Neue',cursive;
+  font-size: 1.15em;
+  font-weight: 575;
+  margin:25px ;
+  padding: 8px;
+  color: #fff;
+  background: darkgray;
+  border: 0;
+  border-radius: 9px;
+  position: relative;
+  bottom:10px;
+  left:22.5%;
+  
+}
 .contact-h{
   padding: 45px 100px 0 0;
   font-family: 'Rock salt', cursive;
@@ -180,3 +236,9 @@ footer{
   display: inline-block;
   line-height: 150%;
 }
+
+form{
+
+  background-color: #5a7573;
+}
+
