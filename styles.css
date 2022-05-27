@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
 
 
 *
@@ -161,9 +163,20 @@ footer{
 
 .message{
   position: absolute;
+  margin: 50px 0 ;
   height:370px;
   right: 10%;
-  width: 550px;
-  background-color: bisque;
+  width: 500px;
+  background-color: #5a7573;
+  display: inline-block;
   z-index: 2;
+}
+
+.contact-h{
+  padding: 45px 100px 0 0;
+  font-family: 'Rock salt', cursive;
+  color: #555b6e;
+  font-size: 3.25em;
+  display: inline-block;
+  line-height: 150%;
 }
