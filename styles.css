@@ -173,7 +173,7 @@ footer{
   float: left;
   position: absolute;
   bottom:30%;
-  padding-left: 40%;
+  padding-left: 4%;
   z-index: 21;
 }
 
@@ -185,8 +185,8 @@ footer{
   padding: 20px;
   background-color: #89b0ae;
   bottom:7%;
-  padding-left: 40%;
-  text-align: center;
+  padding-left: 4%;
+  text-align: left;
 }
 
 .contact-ico{
@@ -203,7 +203,7 @@ footer{
   position: relative;
   border-radius: 1px;
   position: absolute;
-  right:3%;
+  right:17%;
   top:8%;
   z-index: 2;
   color:#fff;
@@ -219,8 +219,9 @@ footer{
   resize: none;
   border:0;
   border-bottom: 2px solid #a1cecb ;
-  background: lightgray;
+  background: #5a7573;
   font-size: 1.15em;
+  color:white;
 }
 
 .contact-form input:focus {
@@ -236,7 +237,7 @@ footer{
   resize: none;
   border: 0;
   width: 90%;
-  background: lightgray;
+  background: #5a7573;
   border-bottom: 1.5px solid #a1cecb;
   color:#fff;
 }
@@ -248,7 +249,7 @@ footer{
   margin:25px ;
   padding: 8px;
   color: #fff;
-  background: darkgray;
+  background: #89b0ae;
   border: 0;
   border-radius: 9px;
   position: relative;
@@ -257,19 +258,19 @@ footer{
   
 }
 .contact-h{
-  margin-left: 400px;
+  margin-left: 300px;
   font-family: 'Rock salt', cursive;
   color: #555b6e;
   font-size: 3.5em;
   display: inline-block;
   line-height: 190%;
   position: absolute;
-  bottom:40%;
+  bottom:45%;
   left: -10%;
   z-index: 100;
 }
 
 form{
-  background-color:rgb(208, 211, 202);
+  background-color:#5a7573;
   border-radius: 10px;
 }
