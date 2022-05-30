@@ -44,10 +44,26 @@ li a{
   text-align: center;
   text-decoration: none;
   font-family: 'Comic Neue', cursive;
-  font-weight: 600;
-  padding:14px 20px;
+  padding:0px 7px;
+  margin:8px 10px;
   color: #555b6e;
   z-index: 100;
+  border-bottom: 2px;
+  position :relative;
+}
+
+
+.menu li a,.menu ul li a:after, .menu ul li before{
+  transition: all ease-in-out 0.3s;
+}
+
+ .menu li a:hover{
+  padding-bottom: 2px;
+  border-bottom: solid #434346;
+}
+.active{
+  font-size: 1.15em;
+  font-weight: 800;
 }
 
 .logo {
